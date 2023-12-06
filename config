@@ -13,8 +13,10 @@
   "modules-right": [
     "tray",
     "custom/weather",
+    "custom/wifi-signal",
     "custom/volume",
     "custom/brightness",
+    "custom/battery",
     "clock"
   ],
   "wlr/taskbar": {
@@ -59,5 +61,17 @@
     "format": "{}",
     "interval": "once",
     "signal": 9
+  },
+  "custom/wifi-signal": {
+    "exec": "~/.config/waybar/nmcli-wifisignal.sh",
+    "return-type": "json",
+    "format": "{}",
+    "interval": "60"
+  },
+  "custom/battery": {
+    "exec": "~/.config/waybar/upower-battery.sh",
+    "return-type": "json",
+    "format": "{}",
+    "interval": "60"
   }
 }
