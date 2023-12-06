@@ -66,12 +66,12 @@
     "exec": "~/.config/waybar/nmcli-wifisignal.sh",
     "return-type": "json",
     "format": "{}",
-    "interval": "60"
+    "interval": 60
   },
   "custom/battery": {
     "exec": "~/.config/waybar/upower-battery.sh",
     "return-type": "json",
     "format": "{}",
-    "interval": "60"
+    "interval": 60
   }
 }
