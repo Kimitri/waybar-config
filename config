@@ -36,7 +36,7 @@
   },
   "clock": {
     "format": "{:%H:%M}",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "tooltip-format": "<big>{:%d %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "tray": {
     "spacing": 4
@@ -49,7 +49,7 @@
     "interval": 900
   },
   "custom/volume": {
-    "exec": "~/.config/waybar/pactl-volume.sh",
+    "exec": "~/.config/waybar/amixer-volume.sh",
     "return-type": "json",
     "format": "{}",
     "interval": "once",
