@@ -48,8 +48,8 @@
     "interval": 900
   },
   "custom/volume": {
-    "exec": "~/.config/waybar/amixer-volume.sh",
-    "return-type": "json",
+    "exec": "~/.config/waybar/pamixer-volume.sh",
+    "return-type": "text",
     "format": "{}",
     "interval": "once",
     "signal": 8
