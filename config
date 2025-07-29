@@ -11,6 +11,7 @@
     "hyprland/window"
   ],
   "modules-right": [
+    "idle_inhibitor",
     "tray",
     "custom/weather",
     "custom/volume",
@@ -18,6 +19,13 @@
     "custom/battery",
     "clock"
   ],
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "A",
+      "deactivated": "D"
+    }
+  },
   "wlr/taskbar": {
     "on-click": "activate",
     "on-click-middle": "close",
